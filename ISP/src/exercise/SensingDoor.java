@@ -3,7 +3,7 @@ package exercise;
 public class SensingDoor implements Door
 {
     private boolean _locked;
-    @SuppressWarnings("unused")
+	@SuppressWarnings("unused")
 	private boolean _opened;
 
     public SensingDoor(Sensor sensor) throws Exception
